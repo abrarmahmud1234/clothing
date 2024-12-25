@@ -1,0 +1,326 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap');
+body{
+    font-family: "Open sans",sans-serif;
+    background-color:darkgrey;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap:800px;
+}
+.left-menu{
+    display: flex;
+    align-items: center;
+    gap:100px
+}
+.logo img{
+    height: 70px;
+
+}
+.menu-item ul{
+   list-style: none;
+    display: flex;
+    gap:50px;
+}
+.menu-item ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+section{
+    padding: 50px;
+    background-color: aliceblue;
+}
+.product{
+display: flex;
+gap:40px;
+margin-bottom: 150px;
+}
+.product-photo{
+    
+}
+.main-image img{
+    height: 600px;
+    border-radius: 5px;
+}
+.sub-image{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap:25px;
+    
+}
+.sub-image img{
+
+    width:115px;
+    height: 170px;
+    border-radius: 5px;
+
+}
+.product-name h1{
+    margin-bottom: 10px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 15px;
+}
+.price p{
+    font-weight: 500;
+}
+.price del{
+    color: grey;
+    font-size: 12px;
+}
+.offer{
+    margin-bottom: 15px;
+    
+}
+.badge{
+    color: chocolate;
+    background-color: rgb(255, 255, 171);
+    padding: 3px 15px;
+    border-radius: 15px;
+    font-size: 15px;  
+}
+.ratings{
+    display: flex;
+    gap:10px;
+    margin-bottom: 30px;
+}
+.numeric p{
+    font-weight: 600;
+}
+.graphical i{
+    color:cadetblue;
+}
+.text h4{
+    font-weight: 200;
+    color: blue;
+}
+.details{
+    margin-bottom: 30px;
+
+}
+.details p{
+    color: rgb(90, 89, 89);
+}
+.color p{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.button-colors button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.circular-button1{
+    background-color: rgb(12,185,128);
+}
+.circular-button2{
+    background-color:orange; 
+    
+}
+.size p{
+    margin-bottom: 10px;
+    color: gray;
+}
+.button-size{
+    margin-bottom: 30px;
+
+}
+.rect-button{
+    height: 35px;
+    width: 40px;
+}
+.quantity p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+.plus-minus-btn{
+   
+    padding: 5px 10px;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    
+    background-color:#d9d9d993;
+    gap:20px;
+    
+}
+.plus-minus-btn button{
+    background-color: transparent;
+    
+ border: none;
+}
+.cart-button{
+    margin-bottom: 20px;
+}
+.rect-button1{
+    width: 550px;
+    height: 40px;
+    background-color: rgb(74, 74, 249);
+    color:white;
+}
+.feature{
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    gap:465px;
+    margin-bottom: 10px;
+}
+.features p{
+font-weight: 600;
+}
+.circular-button{
+    width: 20px;
+    border-radius: 50%;
+}
+.text1{
+    margin-bottom: 30px;
+}
+.text1 ul{
+    padding: 0 0 0 30px;
+}
+.fabric{
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+.care{
+    display: flex;
+    align-items: center;
+    gap:430px;
+    margin-bottom: 10px;
+}
+.care p{
+font-weight: 600;
+}
+.circular-button{
+    width: 20px;
+    border-radius: 50%;
+}
+.text2{
+    margin-bottom: 30px;
+}
+.text2 ul{
+    padding: 0 0 0 30px;
+}
+.shippings{
+    display: flex;
+    align-items: center;
+    gap:465px;
+    margin-bottom: 10px;
+}
+.shippings p{
+font-weight: 600;
+}
+.circular-button{
+    width: 20px;
+    border-radius: 50%;
+}
+.text3{
+    margin-bottom: 30px;
+}
+.text3 ul{
+    padding: 0 0 0 30px;
+}
+.discover{
+margin-bottom: 30px;
+}
+.heading h1{
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+.paragraph p{
+    color: gray;
+}
+.nav{
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.additional{
+    margin-bottom: 10px;
+}
+.menu1 a{
+    margin-right: 20px;
+    color: gray;
+}
+.eco{
+    display: flex;
+    
+    gap:20px;
+}
+.eco-image img{
+    border-radius: 5px;
+    height: 170px;
+}
+.eco-head{
+    margin-bottom: 10px;
+}
+.eco-paragraph{
+    margin-bottom: 25px;
+}
+.eco-icon1{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap:100px;
+    margin-bottom: 30px;
+}
+.eco-recycle{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.eco-impact{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.eco-icon2{
+    margin-left: 15px;
+display: flex;
+align-items: center;
+gap:129px;
+}
+.eco-carbon{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    
+}
+.eco-water{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.icon i{
+    border-radius: 50%;
+    background-color:aliceblue;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    color: darkblue;
+}
